@@ -1,3 +1,8 @@
-module.exports = function() {
-    console.log('Hello npm!')
+module.exports = function(lang) {
+    if(lang=="es"){
+        console.log('Hola npm!')
+    }else{
+        console.log('Hello npm!')
+    }
+    
 }
