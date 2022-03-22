@@ -1,0 +1,29 @@
+{
+  "name": "npm-course",
+  "version": "1.0.0",
+  "description": "play with npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "purge": "rmdir node_modules /s /q && del /f package-lock.json"
+  },
+  "author": "René Fabel",
+  "license": "MIT",
+  "devDependencies": {
+    "jshint": "^2.13.4"
+  },
+  "dependencies": {
+    "underscore": "^1.13.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zedL/hello-npm.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "bugs": {
+    "url": "https://github.com/zedL/hello-npm/issues"
+  },
+  "homepage": "https://github.com/zedL/hello-npm#readme"
+}
