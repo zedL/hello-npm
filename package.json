@@ -1,6 +1,6 @@
 {
   "name": "npm-course-0815",
-  "version": "1.0.2",
+  "version": "1.1.0-beta.0",
   "description": "play with npm",
   "main": "index.js",
   "scripts": {
